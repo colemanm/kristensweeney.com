@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document for Mono v.1   Global Stylesheet */
+
+/* ----------------------------
+   Main
+--------------------------     */
+
+body{color:#fff;font-family:'PT Sans', tahoma, sans serif; height:100%;margin:0;overflow:auto;height:100%; margin:0; padding:0;}
+html{height:100%; margin:0; padding:0;}
+.clearfix{clear:both;display:block;}
+
+
+/* ----------------------------
+   TEXT STYLES
+--------------------------     */
+
+h1{
+	color:#000;
+	font-family:"Georgia", Times, Serif;
+	font-size:3.5em;
+	font-weight:bold;
+	letter-spacing:0;
+	line-height:1em;
+	margin-bottom:20px;
+	margin-top:10px}
+h2{border-bottom:#c2c2c2 solid 1px;border-top:#c2c2c2 solid 1px;color:#7F7F7F;font-family:"Georgia", Times, Serif;font-size:1.9em;font-style:italic;font-weight:400;line-height:1.1em;margin-bottom:25px;margin-top:0;padding-bottom:25px;padding-top:25px;text-align:left;text-transform:none;}
+h3{font-size:1.35em;font-weight:700;letter-spacing:.2px;margin-bottom:6px;margin-top:0;text-transform:uppercase;}
+h4{font-size:1.1em;font-weight:700;letter-spacing:.2px;margin-bottom:6px;margin-top:0;text-transform:uppercase;}
+h5{font-size:1em;font-weight:700;letter-spacing:.2px;margin-bottom:6px;margin-top:0;text-transform:none;}
+h6{font-size:1.2em;font-weight:700;letter-spacing:.2px;margin-bottom:2px;margin-top:0;text-transform:none;}
+p{font-size:.85em;line-height:1.35em;margin:0;}
+a{color:#fff;font-size:.8em;font-weight:700;margin:0;text-decoration:none;}
+a:visited{color:#fff;}
+.dark{color:#444;}
+.italic{border-bottom:0;color:#04759b;font-size:1.2em;font-style:italic;}
+.light{color:#CFF;}
+.underline{text-decoration:underline;}
+
+.hello{
+	display:block;
+	font-family:"Georgia", Times, Serif;
+	font-size:2em;
+	font-weight:400;
+	letter-spacing:1px;
+	line-height:.3em;
+	margin-bottom:230px;
+}
+.subtitle{display:inline;font-family:"Georgia", Times, Serif;font-size:2.3em;font-weight:normal; font-style:italic;font-weight:200;letter-spacing:-.5px;line-height:1.2em;text-transform:none;}
+.divider-01 {background:url(../images/rule_transparent.png) repeat-x bottom center;margin-left:auto; margin-right:auto; padding-top:15px;margin-bottom:5px;width:300px;}
+.divider-02 {background:url(../images/rule_transparent.png) repeat-x bottom center;margin-left:auto; margin-right: auto;margin-bottom:24px;margin-top:12px;padding-top:5px;width:250px;}
+
+
+
+
+/* ----------------------------
+   COMMON STYLES
+--------------------------     */
+img{border:0;}
+ul{list-style-type:none;margin:0;padding-left:0;}
+.blockquote{background:url('images/blockquote1.png') no-repeat top left;font-family:"Droid Serif", "Georgia", serif;font-size:.8em;font-style:italic;height:auto;line-height:1.8em;min-height:100px;padding-left:50px;}
+.blockquote span{font-family:Tahoma, Arial, Helvetica, sans-serif;font-size:.7em;font-style:italic;line-height:3em;}
+.img_spacer{margin-right:12px;margin-top:5px;}
+.img_spacer2{margin-right:12px;}
+.bottom_margin0{margin-bottom:0;}
+.bottom_margin6{margin-bottom:6px;}
+.bottom_margin11{margin-bottom:11px;}
+.bottom_margin21{margin-bottom:21px;}
+.bottom_margin25{margin-bottom:25px;}
+.padding_bottom10{padding-bottom:210px;}
+.left{float:left;}
+.center{margin-left:auto; margin-right:auto; text-align:center}
+.underlined10{background:url('../images/horizontal-rule.png')repeat-x bottom left;padding:10px 0 14px;}
+.underlined12{background:url('../images/horizontal-rule.png')repeat-x bottom left;margin-bottom:12px;padding:16px 0 6px;}
+.underlined18{background:url('../images/horizontal-rule.png')repeat-x bottom left;padding:0 0 18px;}
+.large-icon{background:url('../images/icon_check.png') no-repeat;margin-bottom:-5px;margin-right:-10px;margin-top:3px;padding-left:42px;padding-top:32px;}
+
+/* ----------------------------------------
+   PAGES
+--------------------------------------     */
+#logo{height:500px;left:25%;margin:auto;position:relative;width:475px;}
+.logo-text{background:url('../images/homepage_logo.png') no-repeat;height:1110px;margin:auto;position:relative;text-align:center; top:13%; padding-top:15%;}
+#about,#contact,#home,#skills,#photos,#media{min-height: 100%; width:100%;}
+#home {background: url(../images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.images/bg.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bg.jpg', sizingMethod='scale')";
+	background-size: cover;
+	margin-bottom: 1px}
+#about{-moz-background-size:cover;-ms-text-size-adjust:100%;-o-background-size:cover;-webkit-background-size:cover;-webkit-text-size-adjust:100%;background:url(../images/bg_02.jpg) right bottom fixed no-repeat;background-size:cover;}
+#contact{-moz-background-size:cover;-ms-text-size-adjust:100%;-o-background-size:cover;-webkit-background-size:cover;-webkit-text-size-adjust:100%;background:url(../images/bg_03.jpg) right bottom fixed no-repeat;background-size:cover;}
+#photos{-moz-background-size:cover;-ms-text-size-adjust:100%;-o-background-size:cover;-webkit-background-size:cover;-webkit-text-size-adjust:100%;background:url(../images/bg_04.jpg) right bottom fixed no-repeat;background-size:cover;}
+#media{-moz-background-size:cover;-ms-text-size-adjust:100%;-o-background-size:cover;-webkit-background-size:cover;-webkit-text-size-adjust:100%;background:url(../images/bg_02.jpg) right bottom fixed no-repeat;background-size:cover;}
+#skills{-moz-background-size:cover;-ms-text-size-adjust:100%;-o-background-size:cover;-webkit-background-size:cover;-webkit-text-size-adjust:100%;background:url(../images/bg_05.jpg) right bottom fixed no-repeat;background-size:cover;}
+.header{height:85px;margin:0;padding-top:10px;text-align:left;width:100%;}
+.header ul{float:right;list-style-type:none;}
+.bottom_rule {border-bottom:#333333 5px solid; width:920px; height:20px; margin-left:auto; margin-right:auto; position:relative; margin-top:5px;}
+.layout{position:relative;}
+.container{margin:auto;position:relative;width:920px; padding-top: 90px; padding-bottom:90px;}
+.inside{background: url('../images/overlay_solid.png') repeat;margin-top:0;padding:40px;}
+.inside a:active{color:#000;font-size:.8em;font-weight:700;}
+.inside a:hover{color:#000;font-size:.8em;font-weight:700;}
+.overlay{background:url('../images/overlay_diagonal.png') repeat;min-height:100%;width:100%;z-index:0;}
+.leftcolumn-half{float:left;width:47%;}
+.leftcolumn-one-third{float:left;width:31%;}
+.leftcolumn-one-third.narrow{float:left;width:23%;}
+.rightcolumn-half{float:right;width:47%;}
+.rightcolumn-half li img{border:0;margin-bottom:-1px;margin-right:20px;}
+.leftcolumn-two-thirds{float:left;width:65%;}
+.rightcolumn-one-third{float:right;width:31%;}
+.middlecolumn-one-third{float:left;margin-left:30px;width:31%;}
+.middlecolumn-one-third.wide{width:73%;}
+.credits table {width: 100%;}
+.credits table td {width: 33%; padding: 4px 0;}
+
+/* ----------------------------------------
+   NAVIGATION
+--------------------------------------     */
+#navigation{border-top:#555 solid 3px; background:url(../images/overlay_transparent_white.png) repeat; border-bottom: #666;position:absolute;text-align:left;top:0px; width:920px; left: 50%; margin: 0 0 0 -460px; z-index:200;display: none;}
+#navigation a{color:#666;font-size:1.1em;font-weight:500;}
+#navigation a:active{color:#444;}
+#navigation a:hover{font-weight:500;color:#38c2e4}
+.icons {height:45px;}
+.nav-left{margin-bottom:2px;margin-top:2px;float:left;width:90%;}
+.nav-left ul{float:left;margin-left:18px;margin-top:12px;list-style-type:none;}
+.nav-left li img{border:0;margin-left:15px; margin-top:12px;}
+.nav-left li,.nav-right li{display:inline-block; margin: 0 10px 0 0;}
+img.on:hover{filter:alpha(opacity=50);opacity:.5;}
+
+
+
+
+
+/* --------------------------------------------------
+   SLIMBOX / SEE PRETTYPHOTO.CSS FOR ADDITIONAL STYLING
+---------------------------------------------------     */
+
+.lightbox-thumbs-med li{float:left;height:170px;margin:0;position:relative;width:230px;}
+.thumbnail-overlay-wrapper{float:left; /* important */  position:relative; }  
+.thumbnail-overlay {position:absolute; /* absolute position (so we can position it where we want)*/  
+                    bottom:0px; /* position will be on bottom */  
+                    left:0px;  
+                    width:230px;
+                    height:170px;  
+                    /* styling below */  
+                    background-color:#38c2e4;  /* color of the overlay*/ 
+                    opacity:0; /* transparency */  
+                    filter:alpha(opacity=60); /* IE transparency */
+                    z-index:1;}
+					
+
+a.rollover:hover{border:0;}
+a.rollover:hover .roll-overlay{background:url(../images/tn_overlay_image.png) center no-repeat #38c2e4;-moz-transition-duration:.5s;-o-transition-duration:.5s;-webkit-transition:0 .5s;opacity:.8;visibility:visible;filter:alpha(opacity=80);height:100%;position:absolute;width:100%;z-index:100;}
+a.rollover img{display:block;}
+.caption{position:absolute;height:30px;line-height:30px;width:100%;z-index:3;text-indent:-9999em;color:#fff;font-size:18px;/* used px here b/c with an em size the animation looks odd*/font-weight:700;letter-spacing:.2px;text-transform:uppercase;bottom:45px;text-align:center;overflow:hidden;}
+a.rollover:hover .caption{text-indent:0;}
+
+
+/* ----------------------------
+   CONTACT FORM ELEMENTS
+--------------------------     */
+.field{-moz-border-radius:4px;border-radius:4px;display:block;font-family:Tahoma, Arial, Helvetica, sans-serif;margin-bottom:10px;padding-left:8px;padding-top:0;}
+.text,.textbig,textarea{background:#eaf8fc;border:1px solid #e4f7ff;}
+.text,.textbig{height:25px;margin-top:2px;width:98%;}
+textarea{font-family:Tahoma, Arial, Helvetica, sans-serif;font-size:.9em;height:152px;width:98%;}
+.button{-webkit-font-smoothing:antialiased;background:#38c2e4;border:none;color:#fff;cursor:pointer;font-family:"Georgia", Times, Serif;font-size:.9em;font-style:italic;font-weight:400;line-height:1em; letter-spacing:-.5px;padding:3px 5px 5px;text-transform:none;width:100px; margin-top:15px;}
+.error_message{background:#000;font-family:"Georgia", Times, Serif;font-size:1.0em;font-style:italic;height:20px;padding:5px;margin-bottom:20px;margin-top:5px;-moz-border-radius:4px;border-radius:4px; text-align:center;}
+.label{color:#fff;font-size:.7em;}
+#success_page{color:#000;font-size:1.3em;line-height:1em;font-style:italic;margin-bottom:20px;margin-top:5px;}
+.loader{float:left;padding:0 10px;}
+
+.ui-loader {display: none}
+
+
+/* ----------------------------
+   TABLETS
+--------------------------     */
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+	#about {background:none}
+    #home  {background: url(../images/bg.jpg) no-repeat; 
+			background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			}
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+	#logo { top: 5% !important; left: 15% !important }
+	#logo {height: 500px !important}
+    .logo-text { top: 18%}
+    #navigation {width: 100% !important; margin-left: -50% !important}
+    .layout { width: auto !important}
+	.inside { padding: 25px !important}
+	.middlecolumn-one-third{margin-left:25px !important}
+    .container { width: auto !important; padding: 90px 20px 20px 20px !important}
+    .bottom_rule { width: auto !important}
+
+    .lightbox-thumbs-med { background: none !important}
+    .thumbnail-overlay, a.rollover:hover .roll-overlay, .lightbox-thumbs-med-list li, .lightbox-thumbs-med-list li img { width: 242px !important }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+    #logo { top: 0 !important; left: 25% !important}
+    .logo-text { top: 16%}
+}
+
+.ui-btn-inner { display: none !important;}

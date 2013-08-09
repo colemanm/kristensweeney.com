@@ -1,0 +1,83 @@
+/* 
+    Document   : style
+    Created on : Apr 16, 2012, 1:04:32 PM
+    Author     : Jalal Haider Makki <jalal.haider.makki@maxxsol.com>
+
+*/
+
+html * { margin: 0; padding: 0}
+body { min-height: 100%; height: 100%; width: 100%;font-family:'PT Sans', tahoma, sans serif; }
+.clearfix{clear:both;display:block;}
+
+/* ----------------------------
+   TEXT STYLES
+--------------------------     */
+h1{color:#000;font-family:"Georgia", Times, Serif;;font-size:3em;font-weight:700;letter-spacing:0;line-height:1em;margin-bottom:20px;margin-top:10px;text-transform:uppercase;}
+h2{border-bottom:#c2c2c2 solid 1px;border-top:#c2c2c2 solid 1px;color:#7F7F7F;font-family:"Georgia", Times, Serif;font-size:1.9em;font-style:italic;font-weight:400;line-height:1.1em;margin-bottom:25px;margin-top:0;padding-bottom:25px;padding-top:25px;text-align:left;text-transform:none;}
+h3{font-size:1.35em;font-weight:700;letter-spacing:.2px;margin-bottom:6px;margin-top:0;text-transform:uppercase;}
+h4{font-size:1.1em;font-weight:700;letter-spacing:.2px;margin-bottom:6px;margin-top:0;text-transform:uppercase;}
+h5{font-size:1em;font-weight:700;letter-spacing:.2px;margin-bottom:6px;margin-top:0;text-transform:none;}
+h6{font-size:1.2em;font-weight:700;letter-spacing:.2px;margin-bottom:2px;margin-top:0;text-transform:none;}
+h7{font-size:1em;font-weight:700;letter-spacing:.2px;margin-bottom:6px;margin-top:0;text-transform:none;}
+p{font-size:.85em;line-height:1.35em;margin:0;}
+a{color:#fff;font-size:.8em;font-weight:700;margin:0;text-decoration:none;}
+a:visited{color:#fff;}
+.dark{color:#444;}
+.italic{border-bottom:0;color:#04759b;font-size:1.2em;font-style:italic;}
+.light{color:#CFF;}
+.underline{text-decoration:underline;}
+
+#wrapper {background-color: #fff; width: auto; min-height: 100%}
+.internal-wrapper {width: 95%; margin: 0 auto; height: 100%; padding-bottom: 50px}
+.horizontal_rule {background: url(../images/horizontal-rule.png) repeat-x; width: 100%; height: 2px}
+
+.layout {height: 100%;}
+.overlay {background: url(../images/overlay_diagonal.png) repeat; width: 100%; height: 100%; z-index: 1}
+.content {background: url(../images/overlay_solid.png); color: #fff; padding: 10px 20px 30px 20px }
+.content p {margin: 5px 0}
+.content h3 {margin-top: 15px}
+
+.content-head h1 {float: left}
+.content-head .home-icon {background: url(../images/icon_home_grey.png) no-repeat; padding: 10px; margin-top: 20px; float: right}
+.checkbox-title {background: url(../images/icon_check.png) no-repeat; background-position:left center; padding-left: 30px}
+
+/* ----------------------------
+   CONTACT FORM ELEMENTS
+--------------------------     */
+.backslash{padding-top:40px;color:#006699;font-family:"Georgia", Times, Serif;font-size:.55em;font-style:italic;letter-spacing:-1px;}
+.button{-webkit-font-smoothing:antialiased;background:#38c2e4;border:none;color:#fff;cursor:pointer;font-family:"Georgia", Times, Serif;font-size:.75em;font-style:italic;font-weight:400;line-height:1em; letter-spacing:-.5px;padding:5px 10px 5px;text-transform:none;width:100px; margin-top:15px;}
+.error_message{background:#ccc url('../images/error.gif') no-repeat 10px center;border:1px solid #000;color:#000;display:block;height:20px;line-height:20px;padding:3px 10px 3px 35px;}
+.field{-moz-border-radius:4px; border-radius:4px;display:block;font-family:Tahoma, Arial, Helvetica, sans-serif;margin-bottom:10px;padding-left:8px;padding-top:0;}
+.label{color:#fff;font-size:.7em;}
+.loader{float:left;padding:0 10px;}
+.required{color:#006699;font-family:"Georgia", Times, Serif;font-size:.6em;font-style:italic;}
+#success_page h3{background:url(../images/success.gif) no-repeat;padding-left:20px;}
+.text,.textbig, textarea {background:#eaf8fc;border:1px solid #e4f7ff;}
+.text,.textbig{height:25px;margin-top:2px;width:98%;}
+textarea{font-family:Tahoma, Arial, Helvetica, sans-serif;font-size:.9em;height:152px;width:98%;}
+
+
+/* ----------------------------
+   PAGES
+--------------------------     */
+#home { background: url(../images/overlay_transparent_grey.png) repeat}
+
+/*Portfolio Items*/
+ul#portfolio-items { list-style: none}
+ul#portfolio-items li {float: left; width: 50%; margin: 0 }
+ul#portfolio-items li a img { width: 100%}
+
+.thumbnail-overlay {
+    position: absolute;
+    background-color: #0099cc;
+    opacity: 0;
+}
+
+/*Logo*/
+#logo { text-align: center; padding: 15% 0}
+
+/*Navigation*/
+ul#navigation { list-style: none; }
+ul#navigation li{ background: url(../images/overlay_transparent_white.png) repeat; margin: 3px 0; padding: 7px}
+ul#navigation li h1 { font-size: 1.3em;float: left; margin: 0; padding: 4px 0 0 0 }
+ul#navigation li img { float: right; margin-right: 5px}
